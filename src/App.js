@@ -71,6 +71,7 @@ class App extends Component {
             path='/'
             component={BookmarkList}
           />
+          {/* <BookmarkList bookmarks ={[1,2,3,4,5]} /> */}
         </div>
         {/* <Rating value={5}/> */}
         <Rating />

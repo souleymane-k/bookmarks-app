@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import AddBookmark from './AddBookmark/AddBookmark';
 import BookmarkList from './BookmarkList/BookmarkList';
 import BookmarksContext from './BookmarksContext'
+import Rating from './Rating/Rating';
 import Nav from './Nav/Nav';
 import config from './config';
 import './App.css';
@@ -71,6 +72,8 @@ class App extends Component {
             component={BookmarkList}
           />
         </div>
+        {/* <Rating value={5}/> */}
+        <Rating />
       </BookmarksContext.Provider>
       </main>
     );

@@ -54,9 +54,9 @@ export default function BookmarkItem(props) {
         <button
           className='BookmarkItem__description'
           onClick={() => {
-                           deleteBookmarkRequest(
-                             props.id,
-                             context.deleteBookmark,
+              deleteBookmarkRequest(
+                props.id,
+                context.deleteBookmark,
              )
              }}
         >

@@ -18,7 +18,9 @@ class App extends Component {
 
   setBookmarks = bookmarks => {
     this.setState({
-      bookmarks,
+      //  bookmarks,
+      // i did this 
+      bookmarks: [...bookmarks],
       error: null,
     })
   }

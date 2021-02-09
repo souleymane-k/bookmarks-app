@@ -141,5 +141,7 @@ class AddBookmark extends Component {
   }
 }
 
-
+AddBookmark.contextType = BookmarksContext
 export default withRouter(AddBookmark);
+
+
